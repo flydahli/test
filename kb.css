@@ -1,0 +1,139 @@
+
+.crclearfix:after {
+	content:" ";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.crclearfix {
+	zoom:1;
+}
+.crredbtn {
+	width:25px;
+	height:25px;
+	border-radius:5px;
+	background:red;
+	display:inline-block;
+	margin:0 10px 0 20px;
+}
+.crgreenbtn {
+	width:25px;
+	height:25px;
+	border-radius:5px;
+	background:green;
+	display:inline-block;
+	margin:0 10px 0 20px;
+}
+.cryellowbtn {
+	width:25px;
+	height:25px;
+	border-radius:5px;
+	background:yellow;
+	display:inline-block;
+	margin:0 10px 0 20px;
+}
+.crbluebtn {
+	width:25px;
+	height:25px;
+	border-radius:5px;
+	background:blue;
+	display:inline-block;
+	margin:0 10px 0 20px;
+}
+.crkeyboard {
+	width:1280px;
+	height:600px;
+	position:absolute;
+	left:0;
+	top:120px;
+	z-index:997;
+}
+.crkeyboard .crbgdiv {
+	width:inherit;
+	height:inherit;
+	background:#000;
+	opacity:0.8;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:998;
+}
+.crkeyboard .crkeybox {
+	width:1200px;
+	padding:20px 40px;
+	position:absolute;
+	z-index:999;
+	left:0;
+	top:0;
+}
+.crkeyboard .crkeybox .crlangname {
+	padding:0 0 0 6px;
+	height:26px;
+	line-height:26px;
+	font-size:22px;
+	margin:0 0 16px 0;
+	color:#fff
+}
+.crkeyboard .crkeybox .crlangname a {
+	float:right;
+}
+.crkeyboard .crkeybox .crprintbox {
+	height:34px;
+	padding:8px 10px;
+	position:relative;
+}
+.crkeyboard .crkeybox .crprintbox div {
+	width:1200px;
+	height:50px;
+	background:#fff;
+	opacity:0.15;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.crkeyboard .crkeybox .crprintbox span {
+	color:yellow;
+	float:left;
+	font-size:24px;
+}
+.crkeyboard .crkeybox .crprintbox a {
+	width:1px;
+	height:34px;
+	display:inline-block;
+	border-right:1px solid white;
+	float:left;
+}
+.crkeyboard .crkeybox .cr_ul_keybox {
+	width:inherit;
+	padding:10px 0;
+}
+.crkeyboard .crkeybox .cr_ul_keybox li {
+	background:-webkit-gradient(linear,center top,center bottom,from(#666666),to(#444444));
+	text-shadow:1px 0px #fff;
+	border-radius:5px;
+	float:left;
+	font-size:20px;
+	width:96px;
+	height:30px;
+	line-height:30px;
+	display:block;
+	text-align:center;
+	border:1px solid #fff;
+	margin:5px;
+	color:#fff;
+}
+.crkeyboard .crkeybox .cr_ul_keybox li.hover {
+	border-radius:5px;
+	background:#4bbeff;
+	color:#000;
+}
+.crkeyboard .crkeybox .crbtnbox {
+	width:inherit;
+	padding:10px 0;
+	height:30px;
+	line-height:30px;
+	font-size:26px;
+	text-align:center;
+	color:#fff;
+}
